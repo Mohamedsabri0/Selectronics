@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>S-electronics Center</title>
+</head>
+<body>
+    <div class="banner">
+
+    </div>
+    <div class="about">
+
+        <h3>Welcome to S-electronics Center</h3>
+                   <p>Here Where you can find all electronics you need which suits everyone daily life </p>
+                   <p style="margin-bottom: 30px;">all you need to send us your desired device in which type , model and if it is not available we will fit the right device for your needs just contact us and leave the rest for us </p>
+                   <a href="tel:01099999999">Contact us now</a>
+                   <a href="https://api.whatsapp.com/send?phone=201099999999">Whatsapp us now</a>
+       </div>
+    <div class="service">
+        <div>
+            <img src="./Images/2.jpg" alt="services">
+        </div>
+        <div class="responsive">
+            <h2>Make your first order now </h2>
+            <form onsubmit="validateForm(event)">
+                <label for="fname">First name :</label><br>
+                <input type="text" id="fname" name="fname"  required><br>
+                <label for="lname">Last name :</label><br>
+                <input type="text" id="lname" name="lname" required><br>
+                <label for="model">Model :</label><br>
+                <input type="text" id="model" name="model" required><br>
+                <label for="qualifications">Qualifications :</label><br>
+                <input type="text" id="qualifications" name="qualifications" required><br>
+                <label for="location">Location :</label><br>
+                <input type="text" id="location" name="location" required><br>
+                <label for="email">Your email :</label><br>
+                <input type="email" id="email" name="email"  required><br>
+                <label for="phone">Your mobile number :</label><br>
+                <input type="tel" id="phone" name="phone" required><br>
+  
+                <label for="style">Choose your electronics type :</label><br>
+                  <select id="style" name="style" required>
+                   <option value="PC">PC</option>
+                   <option value="Laptops">Laptops</option>
+                   <option value="Mobile phones">Mobile phones</option>
+                   <option value="TV">Tv</option>
+                   <option value="Air Conditionar">Air Conditionar</option>
+                  </select>
+              
+              
+              <br><br>
+              <input type="submit" value="Order Now" id="submit" >
+              </form>
+          
+        </div>
+    </div>
+   
+
+    <script src="script.js"></script>
+</body>
+</html>
